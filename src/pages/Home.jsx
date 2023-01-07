@@ -10,7 +10,7 @@ export default function Home() {
             <aside className="profile">
                 <img src={header_photo} alt="" />
                 <h2>Dong She</h2>
-                <p>Master Student, Computer Science</p>
+                <p>Master's Student, Computer Science</p>
                 <a href="https://www.ku.dk/">University of Copenhagen</a>
                 <ul className="social">
                     <li>
@@ -19,12 +19,12 @@ export default function Home() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/Jax922" className="social-method" target="_blank" >
+                        <a href="https://github.com/Jax922" className="social-method" target="_blank"  rel="noopener noreferrer">
                             <i class="fa-brands fa-github fa-2xl"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/dong-she-a9201b238/" target="_blank" className="social-method">
+                        <a href="https://www.linkedin.com/in/dong-she-a9201b238/" target="_blank" className="social-method"  rel="noopener noreferrer">
                             <i class="fa-brands fa-linkedin fa-2xl"></i>
                         </a>
                     </li>
@@ -33,7 +33,7 @@ export default function Home() {
             </aside>
             <section className="intro">
                 <p>
-                    I am Dong She, a graduate student at the <a href="https://www.ku.dk/">University of Copenhagen</a> studying Computer Science. I received my B.Eng. degree in Software Engineering from the <a href="https://www.ahu.edu.cn/">Anhui University</a> in China.
+                    I am Dong She, a first-year Master's student at the <a href="https://www.ku.dk/">University of Copenhagen</a> studying Computer Science. I received my B.Eng. degree in Software Engineering from the <a href="https://www.ahu.edu.cn/">Anhui University</a> in China.
                 </p>
                 <p>
                 I have 6 years of IT work experience in China, with 3+ years of experience specializing in web development as a front‑end engineer, and also with about 3 years of experience specializing in product design as a product manager. Here is my <Link to="/cv">resume(CV)</Link>.

@@ -6,6 +6,7 @@ body {
   font-family: Open Sans, Roboto, sans-serif;
   background-color: #F7F7F7;
   width: 100%;
+  min-height: 1500px;
 }
 * {
   box-sizing: border-box;

@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Open Sans, Roboto, sans-serif;
+  background-color: #F7F7F7;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.cv {
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+}
+.cv .cv-header {
+  display: flex;
+  width: 100%;
+}
+.cv .cv-header .hi-font {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  font-family: 'Apple Chancery', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cv .cv-header .photo-me {
+  position: relative;
+  margin-top: px;
+  width: 50%;
+  opacity: 0.7;
+}
+.cv .cv-header .photo-me img {
+  width: 100%;
+  height: 100vh;
+}
+.cv .cv-header .photo-me .say-hi-left {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+}
+.cv .cv-header .intro-cv {
+  position: relative;
+  width: 60%;
+  height: 100vh;
+}
+.cv .cv-header .intro-cv .say-hi-right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #3F95E4;
+}
+.cv .cv-header .intro-cv .myname {
+  color: #2B2B2B;
+  margin-top: 100px;
+  font-size: 70px;
+  text-align: center;
+  color: #3F95E4;
+}
+.cv .cv-header .intro-cv .intro-words {
+  font-size: 30px;
+  color: #2B2B2B;
+  padding: 0 40px;
+  line-height: 40px;
+}
+.cv .cv-header .intro-cv .intro-words .go-to-cv {
+  position: relative;
+  text-align: center;
+}
+.cv .cv-header .intro-cv .intro-words .go-to-cv-btn {
+  width: 200px;
+  height: 80px;
+  border: 1px solid #3F95E4;
+  border-radius: 10px;
+  color: #3F95E4;
+  font-size: 24px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px #3F95E4;
+  display: inline-block;
+  line-height: 80px;
+}
+.cv .cv-header .intro-cv .intro-words .go-to-cv-btn:hover {
+  cursor: pointer;
+  background-color: #3F95E4;
+  color: white;
+  text-decoration: none;
+}
+@keyframes updown {
+  0%,
+  100% {
+    left: 0;
+  }
+  25% {
+    left: 10px;
+  }
+  50% {
+    left: 15px;
+  }
+  75% {
+    left: 10px;
+  }
+}
+/*# sourceMappingURL=resume.css.map */
