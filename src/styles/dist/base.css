@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Open Sans, Roboto, sans-serif;
+  background-color: #F7F7F7;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=base.css.map */

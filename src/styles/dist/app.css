@@ -1,0 +1,162 @@
+@import "../../assets/css/fontawesome.css";
+@import "../../assets/css/solid.css";
+@import "../../assets/css//brands.css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Open Sans, Roboto, sans-serif;
+  background-color: #F7F7F7;
+  width: 100%;
+  min-height: 1500px;
+}
+* {
+  box-sizing: border-box;
+}
+.home {
+  width: 100%;
+  margin: 0 auto;
+}
+.home .profile {
+  height: 450px;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+.home .profile h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: 200;
+}
+.home .profile p {
+  text-align: center;
+  color: gray;
+}
+.home .profile .social {
+  list-style-type: none;
+  height: 40px;
+}
+.home .profile .social li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.home .profile .social li a {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.home .profile .social li .social-method:link {
+  color: #3F95E4;
+}
+.home .profile .social li .social-method:hover {
+  color: #2e93ef;
+  font-size: 1.4rem;
+}
+.home .profile .social li .social-method:visited {
+  color: #3F95E4;
+}
+.home .intro {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 50px;
+  height: 450px;
+  width: 60%;
+  font-size: 1.5rem;
+}
+.home .intro p {
+  line-height: 2.4rem;
+}
+.home .intro .promotion {
+  font-weight: 600;
+}
+.home .recent-posts {
+  margin-top: -150px;
+}
+.home .recent-posts .blog {
+  background-color: #0099ff;
+  margin-top: -30px;
+}
+.home .recent-posts .blog section.title {
+  text-align: center;
+  width: 30%;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: white;
+}
+.home .recent-posts .blog .article-list {
+  margin-left: 10%;
+}
+.link_default {
+  color: #34495E;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #3F95E4;
+}
+header {
+  background-color: white;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  box-shadow: 0px 24px 44px -29px #d0ccd8;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: 120px;
+}
+header nav {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  display: block;
+  height: 70px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 18px;
+  line-height: 70px;
+}
+header nav ul li a:link {
+  color: #34495E;
+}
+header nav ul li a:visited {
+  color: #34495E;
+}
+header nav ul li a:hover {
+  color: #3F95E4;
+}
+main {
+  margin-top: 70px;
+  width: 100%;
+  padding: 20px 0px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+}
+/*# sourceMappingURL=app.css.map */
